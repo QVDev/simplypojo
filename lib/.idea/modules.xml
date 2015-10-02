@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lib.iml" filepath="$PROJECT_DIR$/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplypojo/simplypojo.iml" filepath="$PROJECT_DIR$/simplypojo/simplypojo.iml" />
+    </modules>
+  </component>
+</project>

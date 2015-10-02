@@ -1,0 +1,6 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+dependencies {
+    compile 'org.jsonschema2pojo:jsonschema2pojo-core:0.4.15'
+}
