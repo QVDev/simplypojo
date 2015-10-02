@@ -4,3 +4,14 @@ apply plugin: 'maven'
 dependencies {
     compile 'org.jsonschema2pojo:jsonschema2pojo-core:0.4.15'
 }
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository url: "file:releases/"
+            pom.groupId = 'qvdev.utils.com.simplypojogen'
+            pom.artifactId = 'simplypojogen-lib'
+            pom.version = '1.0'
+        }
+    }
+}
