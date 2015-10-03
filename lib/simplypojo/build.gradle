@@ -1,17 +1,24 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'groovy'
+
+group = 'qvdev.utils.simplypojo'
+version = '1.0.1-SNAPSHOT'
 
 dependencies {
     compile 'org.jsonschema2pojo:jsonschema2pojo-core:0.4.15'
+    compile gradleApi()
+}
+
+repositories {
+    mavenCentral()
 }
 
 uploadArchives {
     repositories {
         mavenDeployer {
             repository url: "file:releases/"
-            pom.groupId = 'qvdev.utils.com.simplypojogen'
-            pom.artifactId = 'simplypojogen-lib'
-            pom.version = '1.0'
         }
     }
 }
+

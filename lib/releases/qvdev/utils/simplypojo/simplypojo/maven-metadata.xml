@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>qvdev.utils.simplypojo</groupId>
+  <artifactId>simplypojo</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20151003013645</lastUpdated>
+  </versioning>
+</metadata>
